@@ -9,7 +9,7 @@ I made these back when I started using wsl and in vs code terminals so feel free
   ```cmd
   touch file.txt
   touch a.txt b.txt c.txt
-````
+  ```
 
 * **ls** — List files with a few familiar flags:
 
@@ -19,11 +19,11 @@ I made these back when I started using wsl and in vs code terminals so feel free
   * `-R` (recursive)
 
   ```cmd
-  ls
-  ls -l
-  ls -a
-  ls -al C:\Windows
-  ls -R .
+      ls
+      ls -l
+      ls -a
+      ls -al C:\Windows
+      ls -R .
   ```
 
 * **cat** — Print one or more files. With no args, reads from stdin (end with `Ctrl+Z` then Enter).
