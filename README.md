@@ -45,7 +45,24 @@ I made these back when I started using wsl and in vs code terminals so feel free
   ```cmd
   ll
   ```
+- **pwd** — print working directory  
+  `pwd`
 
+- **mv** — move/rename; `-f` to overwrite  
+  `mv old.txt new.txt`  
+  `mv -f file.txt C:\dest\`
+
+- **cp** — copy files; use `-r` for directories, `-f` to overwrite  
+  `cp a.txt b.txt`  
+  `cp -r srcDir C:\destDir\`  
+  (Uses `robocopy` for directories.)
+
+- **rm** — remove files; `-r` for directories; `-f` to force/suppress prompts  
+  `rm file.txt`  
+  `rm -r folder`  
+  `rm -rf build`
+  
+  Safety: refuses to operate on drive roots like `C:\`.
 ## Installation
 
 1. Create a folder for your scripts (recommended):
