@@ -1,7 +1,7 @@
 # CMD Linux-Like Toolkit (Batch + PowerShell)
 
 A tiny set of batch scripts that make Windows CMD feel a bit more like Linux. I made these back when I started using wsl and in vs code terminals so feel free to modify them as you like to suit your system and needs :)
-This has been extended to 50 commands now, and is more like a tiny GNU Core Util for Linux commands in Windows. We have both powershell and 
+This has been extended to 50 commands now, and is more like a tiny GNU Core Util for Linux commands in Windows. We have both powershell and normal cmd terminal commands, although you are free to modify this as much as you like.
 
 **Commands included:** 55 
 **PowerShell-backed commands:** 8 (touch, head, tail, wc, df, du, uname, tee)
@@ -25,3 +25,4 @@ This has been extended to 50 commands now, and is more like a tiny GNU Core Util
 ## Future Plan for More Commands (restricted to my availability and time for this)
 Planned additions: `sed`, `awk` (PowerShell-based shims), `sha256sum`, `sort`, `uniq`, `cut`, `tr`, `xargs`, `env`, `export` (shim), `date` (formatting), `cal`, `yes`, `printf`.
 
+For License, check [LICENSE](./LICENSE)
