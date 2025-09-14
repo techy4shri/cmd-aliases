@@ -1,2 +1,3 @@
 @echo off
-call "%~dp0ls.bat" -al
+:: ll.bat - shortcut for ls -al
+call "%~dp0ls.bat" -al %*

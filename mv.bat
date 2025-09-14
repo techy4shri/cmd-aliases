@@ -1,15 +1,7 @@
 @echo off
-:: mv - move/rename files or folders
-:: Usage: mv [-f] <src> <dest>
 setlocal
-
 set "force="
 if /I "%~1"=="-f" (set "force=/Y" & shift)
-
-if "%~2"=="" (
-  echo Usage: mv [-f] ^<src^> ^<dest^>
-  exit /b 1
-)
-
+if "%~2"=="" (echo Usage: mv [-f] ^<src^> ^<dest^> & exit /b 1)
 move %force% "%~1" "%~2"
 endlocal
